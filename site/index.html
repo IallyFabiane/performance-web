@@ -8,14 +8,20 @@
 
 	<script inline src="assets/js/home.js"></script>
 
-	<!-- build:css assets/css/estilos.css -->
-	<link rel="stylesheet" href="assets/css/reset.css">
-	<link rel="stylesheet" href="assets/css/base.css">
-	<link rel="stylesheet" href="assets/css/colors.css">
-	<link rel="stylesheet" href="assets/css/font.css">
+	<link inline rel="stylesheet" href="assets/css/reset.css">
+	<link inline  rel="stylesheet" href="assets/css/base.css">
+	<link inline rel="stylesheet" href="assets/css/colors.css">
+	<link inline rel="stylesheet" href="assets/css/font.css">
+	<link inline  rel="stylesheet" href="assets/css/block-header-busca.css">
+	<link inline rel="stylesheet" href="assets/css/block-header.css">
+	<link inline  rel="stylesheet" href="assets/css/block-buttons.css">
+	<link inline  rel="stylesheet" href="assets/css/block-categoriaCard.css">
+	<link inline  rel="stylesheet" href="assets/css/block-titulo-destaque.css">
+	<link inline  rel="stylesheet" href="assets/css/home-diferenciais.css">
+	<link inline  rel="stylesheet" href="assets/css/home-fundo.css">
+	<link inline  rel="stylesheet" href="assets/css/home.css">
 
-	<link rel="stylesheet" href="assets/css/block-buttons.css">
-	<link rel="stylesheet" href="assets/css/block-categoriaCard.css">
+	<!-- build:css assets/css/resto.css -->
 	<link rel="stylesheet" href="assets/css/block-conteudo.css">
 	<link rel="stylesheet" href="assets/css/block-cursoCard.css">
 	<link rel="stylesheet" href="assets/css/block-depoimentos.css">
@@ -24,18 +30,18 @@
 	<link rel="stylesheet" href="assets/css/block-footer.css">
 	<link rel="stylesheet" href="assets/css/block-form-erro.css">
 	<link rel="stylesheet" href="assets/css/block-grupoCaelum.css">
-	<link rel="stylesheet" href="assets/css/block-header-busca.css">
-	<link rel="stylesheet" href="assets/css/block-header.css">
 	<link rel="stylesheet" href="assets/css/block-highlighted.css">
 	<link rel="stylesheet" href="assets/css/block-painelPlanos.css">
-	<link rel="stylesheet" href="assets/css/block-titulo-destaque.css">
 	<link rel="stylesheet" href="assets/css/block-titulos.css">
-
 	<link rel="stylesheet" href="assets/css/home-aprenda.css">
-	<link rel="stylesheet" href="assets/css/home-diferenciais.css">
-	<link rel="stylesheet" href="assets/css/home-fundo.css">
-	<link rel="stylesheet" href="assets/css/home.css">
 	<!-- endbuild -->
+
+	<link rel="preload" as="style" href="assets/css/resto.css" onload="this.rel='stylesheet'"> <!--css restante com carregamento assíncrono-->
+	<noscript><link rel="stylesheet" type="text/css" href="assets/css/resto.css"></noscript> <!--arquivo para suporte do restante do css a navegadores que não entendem o rel=preload-->
+
+	<script src="assets/js/loadcss.js"></script> <!--arquivo do plugin loadCss-->
+	<script src="assets/js/cssrelpreload.js"></script> <!--polyfill-->
+
 </head>
 <body>
 
