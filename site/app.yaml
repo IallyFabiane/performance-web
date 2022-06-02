@@ -11,7 +11,7 @@ handlers:
     upload: index.html
     expiration: 0s
     http_headers: # ativando o server push no google app engine
-      Link: <assets/img/background-cidade-fundo.svg>; rel=preload; as=image
+      Link: <assets/img/background-cidade-fundo.svg>; rel=preload; as=image, <assets/img/logo-alura.svg>; rel=preload; as=image
 
   - url: /cadastrado.html
     static_files: cadastrado.html
