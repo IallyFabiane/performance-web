@@ -7,7 +7,13 @@
 		newsletterButton.onclick = cadastraNewsletter	
 	}
 
-
+	//prerender da página html cadastrado.html
+    inputEmail.onfocus = function() {
+        var prerender = document.createElement('link');
+        prerender.rel = 'prerender';
+        prerender.href = 'cadastrado.html';
+        document.head.appendChild(prerender);
+    }
 
 	// quando clicar no botão, valida o email, 
 	// chama API e redireciona pra pagina de confirmacao
