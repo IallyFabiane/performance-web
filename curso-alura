@@ -1,0 +1,13 @@
+server {
+
+	listen 8080;
+	root /home/pi/Documents/Ially/logica_de_programacao_alura/performance-web-2/dist;
+	
+	gzip on;
+	gzip_types text/css application/javascript image/svg+xml;
+
+	location /assets {
+    		expires 1y;
+    		add_header Cache-Control public;
+  	}
+}
