@@ -1,4 +1,4 @@
-<h1>#Web Performance</h1>
+<h1>Web Performance</h1>
 
 <h3>Alura</h3>
 
