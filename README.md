@@ -2,7 +2,7 @@
 
 <h3>Alura</h3>
 
-<h2>listen localhost:8080 on Nginx Server</h2>
+<h2>listen on localhost:8080</h2>
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
